@@ -36,7 +36,7 @@ const PORT = 5000;
 
 const connectDB = async () => {
     try {
-        mongoose.connect('mongodb+srv://admin:uBC9gVzUehhfEKvEvasW@cluster0.tzrf4.mongodb.net/project?retryWrites=true&w=majority')
+        mongoose.connect('mongodb+srv://-.tzrf4.mongodb.net/project?retryWrites=true&w=majority')
             .then( () => console.log('MongoDB started') )
             .catch(error => console.log(error))
         app.listen(PORT, () => console.log(`Server started on PORT 5000`))
